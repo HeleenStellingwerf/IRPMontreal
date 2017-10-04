@@ -1,0 +1,54 @@
+/*********************************************
+ * OPL 12.7.1.0 Data
+ * Author: stell007
+ * Creation Date: 29 sep. 2017 at 10:06:35
+ *********************************************/
+/*********************************************
+ * OPL 12.7.1.0 Data
+ * Author: juanfeber
+ * Creation Date: 17/8/2017 at 11:41:28
+ *********************************************/
+
+// *********************************************/
+//Number of nodes
+ n=6;//6
+ 
+//Number of days
+t=4;
+
+//Number of vehicles
+k=2;//2
+
+//number of products
+p=6;//6;
+
+//S=5000; 
+
+//Capacity on kilograms of vehicle
+Q=4000;
+
+//Caacity on volume
+
+//vv=100;
+
+//Ubicacion del archivo
+SheetConnection connex ("10Inventario.xlsx");
+ 
+/* 10 SUPPLIERS
+kilometros from SheetRead (connex,"distancia");
+demanda from SheetRead (connex,"deman");
+StorageCapacity from SheetRead (connex,"capacidad");
+holdingCost from SheetRead (connex,"costo"); */
+
+// 5 SUPPLIERS//
+ 
+//kilometros from SheetRead (connex,"dis");
+kilometros from SheetRead (connex,"dist_test");
+demanda from SheetRead (connex,"dem_test4");
+//demanda from SheetRead (connex,"demand_test");
+//S from SheetRead (connex,"storage");
+S from SheetRead (connex,"storage");
+//inv_init from SheetRead(connex,"inv_init")
+//StorageCapacity from SheetRead (connex,"cap");
+//holdingCost from SheetRead (connex,"cos");
+ 
